@@ -161,9 +161,13 @@
 }
 
 .page__hero-image {
-  width: 100%;
-  height: auto;
-  -ms-interpolation-mode: bicubic;
+  width: 100%; /* Make the image span the full container width */
+  max-width: 300px; /* Restrict the maximum size */
+  height: auto; /* Maintain the aspect ratio */
+  margin: 0 auto; /* Center the image if it’s a block element */
+  display: block; /* Ensure proper spacing and alignment */
+  border: 2px solid #ccc; /* Add a subtle border (optional) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for aesthetics */
 }
 
 .page__hero-caption {
