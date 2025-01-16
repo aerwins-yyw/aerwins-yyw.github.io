@@ -21,7 +21,7 @@ repository               : "aerwins-yyw.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_picture.png"
   name             : "Albertus Erwin Susanto 閻余文"
   bio              : "Policy Analyst and Data Scientist"
   location         : "New York | Beijing | Jakarta"
