@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Albertus Erwin Susanto/Home Page"
+title                    : "Home Page"
 title_separator          : "-"
 name                     : &name "Albertus Erwin Susanto"
 description              : &description "Data Scientist"
@@ -21,7 +21,7 @@ repository               : "aerwins-yyw.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "A E S.jpg"
+  avatar           : "Profile Picture.png"
   name             : "Albertus Erwin Susanto 閻余文"
   bio              : "Policy Analyst and Data Scientist"
   location         : "New York | Beijing | Jakarta"
@@ -33,7 +33,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
