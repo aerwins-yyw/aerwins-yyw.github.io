@@ -125,22 +125,13 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-3;
 }
 
 .sidebar .author__desktop {
   display: none;
   @media screen and (min-width: 1024px) {
     display: block;
-  }
-}
-
-.author__pronouns {
-  margin: 0;
-
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 }
 
