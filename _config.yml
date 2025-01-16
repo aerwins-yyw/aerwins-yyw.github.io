@@ -6,12 +6,6 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-title: Albertus Erwin Susanto 阎余文
-#logo
-#description: 
-#show_downloads: true
-theme: jekyll-theme-minimal 
-
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Albertus Erwin Susanto/Home Page"
