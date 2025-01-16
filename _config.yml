@@ -22,7 +22,8 @@ repository               : "aerwins-yyw.github.io"
 author:
   # Biographic information
   avatar           : "profile_picture.png"
-  name             : "ALBERTUS ERWIN SUSANTO 閻余文"
+  name             : "ALBERTUS ERWIN SUSANTO"
+  subname          : "閻余文"
   bio              : "Policy Analyst and Data Scientist"
   location         : "New York | Beijing | Jakarta"
   employer         : "Tsinghua University"
