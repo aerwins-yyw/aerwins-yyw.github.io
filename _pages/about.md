@@ -53,7 +53,7 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 
 ## EDUCATIONAL BACKGROUND
 ### Master's Degree in Public Administration (公共管理)
-Chinese-taught Program (中文授课)
+Chinese-taught Program (中文授课) <br/>
 Tsinghua University, Beijing, China <br/>
 - Center for Science, Technology, and Education Policy Research Team Member
 - Focus Areas: Data Science, Policy Analysis, AI in Business Strategy
