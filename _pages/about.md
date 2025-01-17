@@ -10,20 +10,20 @@ redirect_from:
 I am currently pursuing a master's degree at Tsinghua University, Beijing, China.
 
 ---
-**Skills**
+### Skills
 - Programming: R, Python, SQL
 - Supervised and Unsupervised Machine Learning Models
 - Databases: MySQL, IBM DB2
 - Data Visualization: Flourish, R, Plotly, MS Excel, MS Powerpoint, Canva 
 
-**Qualifications**
+### Qualifications
 - 3 years of working experience in education, research, and government relations  
 - Well-trained in writing and public speaking 
 - Excellent team player with a strong sense of initiative   
 - Solid understanding of statistical principles and applications
 - Passionate life-long learner, currently focusing on: smart city policy, machine learning, and enterpreneurship. 
 
-**Language Proficiency**
+### Language Proficiency
 - 🇮🇩 Indonesian: Native  
 - 🇬🇧 English: Fluent (IELTS Band 8, TOEFL iBT 104/120)  
 - 🇨🇳 Chinese: Advanced (HSK 6)  
@@ -32,11 +32,11 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 ---
 
 Professional Experience
+===
+
+KOMPAS RESEARCH & DEVELOPMENT <br/>
 ---
-
-**KOMPAS RESEARCH & DEVELOPMENT**<br/>
-Assistant Researcher, Data Analyst, Illustrator <br/>
-
+**Assistant Researcher, Data Analyst, Illustrator**<br/>
 Roles:
 - Conducting research on various fields, particularly:  
   - Indonesia's industrial upstreaming policy, <br/>
