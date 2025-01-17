@@ -10,12 +10,12 @@ main:
 
   - title: "Certificates"
     url: /certificates/
+    
+  - title: "Projects"
+    url: /projects/
 
-  #- title: "Projects"
-  #  url: /projects/
-
-  #- title: "Publications"
-  #  url: /publications/
+  - title: "Published Articles"
+    url: /Published Articles/
 
   #- title: "Talks"
   #  url: /talks/    
