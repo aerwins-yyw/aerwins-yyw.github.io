@@ -56,25 +56,24 @@ Roles:
 - Taught Ethics, Latin, French (A1), and Chinese (HSK 1-2).  
 - Coordinated campus ministry and social service programs.
 
----
 <br/>
 
 ## EDUCATIONAL BACKGROUND
-**Master's Degree in Public Administration (公共管理)**<br/>
+### Master's Degree in Public Administration (公共管理)
 Tsinghua University, Beijing, China <br/>
-Chinese-taught Program (中文授课) <br/>
+Chinese-taught Program (中文授课)
 - Center for Science, Technology, and Education Policy Research Team Member
 - Focus Areas: Data Science, Policy Analysis, AI in Business Strategy
 - GPA: 3.91 (4.00)
 - Thesis: Impact of ASEAN-Smart City Network on Urban Developments
 
-**Bachelor of Engineering** <br/> 
-Universitas Yuppentek Indonesia <br/>
+### Bachelor of Engineering 
+Universitas Yuppentek Indonesia
 - Major: Electrical Engineering
 - GPA: 4.00 (4.00)
 
-**Bachelor of Arts**<br/>
-Driyarkara School of Philosophy <br/>
+### Bachelor of Arts 
+Driyarkara School of Philosophy
 - GPA: 3.99 (4.00)
 - Thesis: Struggle for Recognition - Axel Honnet's Critical Theory
 - Driyarkara Journal Coordinator in Chief & Head of Editors 2016-2017
