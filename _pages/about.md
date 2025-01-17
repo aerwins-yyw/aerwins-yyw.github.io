@@ -30,11 +30,11 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 - 🇫🇷 French: Intermediate (DELF B2)  
 
 ---
+<br/>
 
-## Professional Experience
+## PROFESSIONAL EXPERIENCE
 
-### KOMPAS RESEARCH & DEVELOPMENT 
----
+### Kompas Research & Development 
 **Assistant Researcher, Data Analyst, Illustrator**<br/>
 Roles:
 - Conducting research on various fields, particularly:  
@@ -44,17 +44,15 @@ Roles:
 - Regular contributor to the Kompaspedia platform;  
 - Research report graphs and infographics designs.
 
-### COORDINATING MINISTRY FOR MARITIME AFFARIS AND INVESTMENT, REPUBLIC OF INDONESIA 
+### Coordinating Ministry for Maritime Affairs and Investment, Republic of Indonesia 
 **Consultant**<br/>
-
 Roles:
 - Served as consultant for the Secretariat of High-level Dialogue and Cooperation Mechanism between the Republic of Indonesia and the People's Republic of China.  
 - Coordinated inter-ministerial work and bilateral meetings, supervised investment projects, and hosted business matching forums as well as focus group discussions.  
 - Acted as Chinese interpreter and handled document translations.
 
-**XAVIER HIGH SCHOOL, FEDERATED STATES OF MICRONESIA**<br/>
-Teacher <br/>
-
+### Xavier High School, Federated States of Micronesia
+**Teacher** <br/>
 Roles:
 - Taught Ethics, Latin, French (A1), and Chinese (HSK 1-2).  
 - Coordinated campus ministry and social service programs.
