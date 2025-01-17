@@ -12,11 +12,11 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 ---
 
 **Skills**
-✔️ 3 Years of Working Experience in Education, Research, and Government Relations  
-✔️ Well-trained in writing and public speaking  
-✔️ Solid understanding of statistical principles and applications
-✔️ Excellent team player with a strong sense of initiative  
-✔️ Passionate life-long learner, currently focusing on: smart city policy, machine learning, and enterpreneurship. 
+- 3 Years of Working Experience in Education, Research, and Government Relations  
+- Well-trained in writing and public speaking  
+- Solid understanding of statistical principles and applications
+- Excellent team player with a strong sense of initiative  
+- Passionate life-long learner, currently focusing on: smart city policy, machine learning, and enterpreneurship. 
 
 **Language Proficiency**
 - 🇮🇩 Indonesian: Native  
