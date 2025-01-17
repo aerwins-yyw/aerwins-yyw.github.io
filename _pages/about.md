@@ -34,7 +34,7 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 Professional Experience
 ---
 
-**KOMPAS RESEARCH & DEVELOPMENT** <br/>
+**KOMPAS RESEARCH & DEVELOPMENT**<br/>
 Assistant Researcher, Data Analyst, Illustrator <br/>
 
 Roles:
@@ -45,7 +45,7 @@ Roles:
 - Regular contributor to the Kompaspedia platform;  
 - Research report graphs and infographics designs.
 
-**COORDINATING MINISTRY FOR MARITIME AFFARIS AND INVESTMENT, REPUBLIC OF INDONESIA** <br/>
+**COORDINATING MINISTRY FOR MARITIME AFFARIS AND INVESTMENT, REPUBLIC OF INDONESIA**<br/>
 Consultant <br/>
 
 Roles:
@@ -53,7 +53,7 @@ Roles:
 - Coordinated inter-ministerial work and bilateral meetings, supervised investment projects, and hosted business matching forums as well as focus group discussions.  
 - Acted as Chinese interpreter and handled document translations.
 
-**XAVIER HIGH SCHOOL, FEDERATED STATES OF MICRONESIA** <br/>
+**XAVIER HIGH SCHOOL, FEDERATED STATES OF MICRONESIA**<br/>
 Teacher <br/>
 
 Roles:
@@ -65,7 +65,7 @@ Roles:
 Educational Background
 ---
 
-**MASTER'S DEGREE IN PUBLIC ADMINISTRATION (公共管理)** <br/>
+**MASTER'S DEGREE IN PUBLIC ADMINISTRATION (公共管理)**<br/>
 Tsinghua University, Beijing, China <br/>
 Chinese-taught Program (中文授课) <br/>
 
@@ -74,7 +74,7 @@ Chinese-taught Program (中文授课) <br/>
 - GPA: 3.91 (4.00)
 - Thesis: Impact of ASEAN-Smart City Network on Urban Developments
 
-**BACHELOR OF ARTS** <br/>
+**BACHELOR OF ARTS**<br/>
 Driyarkara School of Philosophy <br/>
 
 - GPA: 3.99 (4.00)
