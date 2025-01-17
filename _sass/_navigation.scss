@@ -11,7 +11,7 @@
   @include clearfix;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 6em;
+  padding-left: 2em;
   padding-right: 2em;
   font-family: $sans-serif;
   -webkit-animation: intro 0.3s both;
@@ -204,30 +204,30 @@
 
   .visible-links {
     display: table;
-
+  
     li {
       display: table-cell;
       vertical-align: middle;
-
+  
       &:first-child {
         font-weight: bold;
         text-wrap: wrap;
-
+  
         a {
           margin-left: 0;
         }
       }
-
+  
       &:last-child {
         a {
-          margin-right: 0;
+          margin-right: 2rem; /* Add space to move the "CV" button to the right */
         }
       }
     }
-
+  
     a {
       position: relative;
-
+  
       &:before {
         content: "";
         position: absolute;
@@ -240,16 +240,17 @@
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+                transform: scaleX(0); /* hide */
       }
-
+  
       &:hover:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+                transform: scaleX(1); /* reveal */
       }
     }
   }
+  
 
   .hidden-links {
     position: absolute;
