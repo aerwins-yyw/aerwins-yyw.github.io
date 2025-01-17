@@ -30,19 +30,19 @@ Professional Experience
 ---
 
 **Assistant Researcher, Data Analyst, Illustrator**  
-KOMPAS Research & Development  </br>
-03/2020 - Present </br>
+KOMPAS Research & Development  <br/>
+03/2020 - Present <br/>
 
 - Conducted research on various fields, particularly:  
-  - Indonesia's industrial upstreaming policy </br>
-  - Energy transition </br>
-  - AI and Big Data regulation </br>
+  - Indonesia's industrial upstreaming policy <br/>
+  - Energy transition <br/>
+  - AI and Big Data regulation <br/>
 - Regular contributor to the Kompaspedia platform.  
 - Designed research report graphs and infographics.
 
 **Individual Consultant**  
-Coordinating Ministry for Maritime Affairs and Investment, Indonesia</br>
-08/2021 - 09/2022 </br>
+Coordinating Ministry for Maritime Affairs and Investment, Indonesia<br/>
+08/2021 - 09/2022 <br/>
 
 - Served as a Consultant for the Secretariat of High-level Dialogue and Cooperation Mechanism between the Republic of Indonesia and the People's Republic of China.  
 - Coordinated inter-ministerial work and bilateral meetings, supervised investment projects, and hosted business matching forums and focus group discussions.  
