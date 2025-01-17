@@ -2,6 +2,38 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('../assets/webfonts/lmroman10-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('../assets/webfonts/lmroman10-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('../assets/webfonts/lmroman10-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('../assets/webfonts/lmroman10-bolditalic-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Latin Modern Roman', serif; /* Set Latin Modern Roman as the global font */
+}
+
 #main {
   @include container;
   @include clearfix;
@@ -44,7 +76,7 @@
 }
 
 .page__lead {
-  font-family: $global-font-family;
+  font-family: 'Latin Modern Roman';
   font-size: $type-size-4;
 }
 
@@ -86,13 +118,13 @@
 
   dt {
     margin-top: 1em;
-    font-family: $sans-serif;
+    font-family: 'Latin Modern Roman';
     font-weight: bold;
   }
 
   dd {
     margin-left: 1em;
-    font-family: $sans-serif;
+    font-family: 'Latin Modern Roman';
     font-size: $type-size-6;
   }
 
@@ -228,7 +260,7 @@
 .page__meta {
   margin-top: 2em;
   color: mix(#fff, $gray, 25%);
-  font-family: $sans-serif;
+  font-family: 'Latin Modern Roman';
   font-size: $type-size-6;
 
   p {
