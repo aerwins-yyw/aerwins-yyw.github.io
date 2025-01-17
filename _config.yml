@@ -82,6 +82,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  webpage:
+    title: 'Webpage'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -215,7 +217,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  published-articles:
+  publications:
     output: true
     permalink: /:collection/:path/
   certificates:
@@ -258,10 +260,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _published-articles
+  # _publications
   - scope:
       path: ""
-      type: published-articles
+      type: publications
     values:
       layout: single
       author_profile: true
