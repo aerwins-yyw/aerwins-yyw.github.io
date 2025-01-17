@@ -29,12 +29,10 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 - 🇨🇳 Chinese: Advanced (HSK 6)  
 - 🇫🇷 French: Intermediate (DELF B2)  
 
-<br/>
-
 ## PROFESSIONAL EXPERIENCE
 
 ### Kompas Research & Development 
-**Assistant Researcher, Data Analyst, Illustrator**
+***Assistant Researcher, Data Analyst, Illustrator***
 - Conducting research on various fields, particularly:  
   - Indonesia's industrial upstreaming policy, <br/>
   - energy transition, <br/>
@@ -43,17 +41,15 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 - Research report graphs and infographics designs.
 
 ### Coordinating Ministry for Maritime Affairs and Investment, Republic of Indonesia 
-**Consultant**
+***Consultant***
 - Served as consultant for the Secretariat of High-level Dialogue and Cooperation Mechanism between the Republic of Indonesia and the People's Republic of China.  
 - Coordinated inter-ministerial work and bilateral meetings, supervised investment projects, and hosted business matching forums as well as focus group discussions.  
 - Acted as Chinese interpreter and handled document translations.
 
 ### Xavier High School, Federated States of Micronesia
-**Teacher**
+***Teacher***
 - Taught Ethics, Latin, French (A1), and Chinese (HSK 1-2).  
 - Coordinated campus ministry and social service programs.
-
-<br/>
 
 ## EDUCATIONAL BACKGROUND
 ### Master's Degree in Public Administration (公共管理)
