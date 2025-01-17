@@ -1,7 +1,7 @@
 ---
-title: "Certificates item number 1"
-excerpt: "Short description of certificates item number 1<br/><img src='/images/500x300.png'>"
+title: "Certificates"
+excerpt: "Here are some certificates that I got from professional and academic courses and workshops. <br/> <img src='/images/500x300.png'>"
 collection: certificates
 ---
 
-This is an item in your certificates. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Here are some certificates that I got from professional and academic courses and workshops. 
