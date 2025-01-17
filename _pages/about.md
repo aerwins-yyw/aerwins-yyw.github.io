@@ -31,10 +31,9 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 
 ---
 
-Professional Experience
-===
+## Professional Experience
 
-KOMPAS RESEARCH & DEVELOPMENT <br/>
+### KOMPAS RESEARCH & DEVELOPMENT 
 ---
 **Assistant Researcher, Data Analyst, Illustrator**<br/>
 Roles:
@@ -45,8 +44,8 @@ Roles:
 - Regular contributor to the Kompaspedia platform;  
 - Research report graphs and infographics designs.
 
-**COORDINATING MINISTRY FOR MARITIME AFFARIS AND INVESTMENT, REPUBLIC OF INDONESIA**<br/>
-Consultant <br/>
+### COORDINATING MINISTRY FOR MARITIME AFFARIS AND INVESTMENT, REPUBLIC OF INDONESIA 
+**Consultant**<br/>
 
 Roles:
 - Served as consultant for the Secretariat of High-level Dialogue and Cooperation Mechanism between the Republic of Indonesia and the People's Republic of China.  
