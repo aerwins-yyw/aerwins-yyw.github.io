@@ -29,7 +29,6 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 - 🇨🇳 Chinese: Advanced (HSK 6)  
 - 🇫🇷 French: Intermediate (DELF B2)  
 
----
 <br/>
 
 ## PROFESSIONAL EXPERIENCE
@@ -58,33 +57,29 @@ Roles:
 - Coordinated campus ministry and social service programs.
 
 ---
+<br/>
 
-Educational Background
----
-
-**MASTER'S DEGREE IN PUBLIC ADMINISTRATION (公共管理)**<br/>
+## EDUCATIONAL BACKGROUND
+**Master's Degree in Public Administration (公共管理)**<br/>
 Tsinghua University, Beijing, China <br/>
 Chinese-taught Program (中文授课) <br/>
-
 - Center for Science, Technology, and Education Policy Research Team Member
 - Focus Areas: Data Science, Policy Analysis, AI in Business Strategy
 - GPA: 3.91 (4.00)
 - Thesis: Impact of ASEAN-Smart City Network on Urban Developments
 
-**BACHELOR OF ARTS**<br/>
-Driyarkara School of Philosophy <br/>
+**Bachelor of Engineering** <br/> 
+Universitas Yuppentek Indonesia <br/>
+- Major: Electrical Engineering
+- GPA: 4.00 (4.00)
 
+**Bachelor of Arts**<br/>
+Driyarkara School of Philosophy <br/>
 - GPA: 3.99 (4.00)
 - Thesis: Struggle for Recognition - Axel Honnet's Critical Theory
 - Driyarkara Journal Coordinator in Chief & Head of Editors 2016-2017
 - MaGis Community Coordinator 2016-2018 
 - Hermanum College International Students Tutor
-
-**BACHELOR OF ENGINEERING** <br/> 
-Universitas Yuppentek Indonesia <br/>
-
-- Major: Electrical Engineering
-- GPA: 4.00 (4.00)
 
 ---
 
