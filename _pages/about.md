@@ -34,8 +34,7 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 ## PROFESSIONAL EXPERIENCE
 
 ### Kompas Research & Development 
-**Assistant Researcher, Data Analyst, Illustrator**<br/>
-Roles:
+**Assistant Researcher, Data Analyst, Illustrator**
 - Conducting research on various fields, particularly:  
   - Indonesia's industrial upstreaming policy, <br/>
   - energy transition, <br/>
@@ -44,15 +43,13 @@ Roles:
 - Research report graphs and infographics designs.
 
 ### Coordinating Ministry for Maritime Affairs and Investment, Republic of Indonesia 
-**Consultant**<br/>
-Roles:
+**Consultant**
 - Served as consultant for the Secretariat of High-level Dialogue and Cooperation Mechanism between the Republic of Indonesia and the People's Republic of China.  
 - Coordinated inter-ministerial work and bilateral meetings, supervised investment projects, and hosted business matching forums as well as focus group discussions.  
 - Acted as Chinese interpreter and handled document translations.
 
 ### Xavier High School, Federated States of Micronesia
-**Teacher** <br/>
-Roles:
+**Teacher**
 - Taught Ethics, Latin, French (A1), and Chinese (HSK 1-2).  
 - Coordinated campus ministry and social service programs.
 
@@ -60,8 +57,8 @@ Roles:
 
 ## EDUCATIONAL BACKGROUND
 ### Master's Degree in Public Administration (公共管理)
-Tsinghua University, Beijing, China <br/>
 Chinese-taught Program (中文授课)
+Tsinghua University, Beijing, China <br/>
 - Center for Science, Technology, and Education Policy Research Team Member
 - Focus Areas: Data Science, Policy Analysis, AI in Business Strategy
 - GPA: 3.91 (4.00)
