@@ -255,19 +255,28 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _published-articles
   - scope:
       path: ""
-      type: publications
+      type: published-articles
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _certificates
+  - scope:
+      path: ""
+      type: certificates
     values:
       layout: single
       author_profile: true

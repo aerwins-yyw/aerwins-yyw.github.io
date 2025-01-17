@@ -33,7 +33,7 @@ Professional Experience
 KOMPAS Research & Development  <br/>
 03/2020 - Present <br/>
 
-- Conducted research on various fields, particularly:  
+- Conducted research on various fields, particularly:  vd
   - Indonesia's industrial upstreaming policy <br/>
   - Energy transition <br/>
   - AI and Big Data regulation <br/>

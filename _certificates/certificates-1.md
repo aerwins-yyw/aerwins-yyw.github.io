@@ -1,6 +1,6 @@
 ---
-title: "Certificates"
-excerpt: "Here are some certificates that I got from professional and academic courses and workshops. <br/> <img src='/images/500x300.png'>"
+title: "Certificate 1 "
+excerpt: "Certificate 1. <br/> <img src='/images/500x300.png'>"
 collection: certificates
 ---
 
