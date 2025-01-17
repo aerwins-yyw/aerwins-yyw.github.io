@@ -15,7 +15,7 @@ main:
     url: /projects/
 
   - title: "Published Articles"
-    url: /published_articles/
+    url: /published-articles/
 
   #- title: "Talks"
   #  url: /talks/    
