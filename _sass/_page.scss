@@ -2,36 +2,8 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
-@font-face {
-  font-family: 'Latin Modern Roman';
-  src: url('../assets/webfonts/lmroman10-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Latin Modern Roman';
-  src: url('../assets/webfonts/lmroman10-bold-webfont.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Latin Modern Roman';
-  src: url('../assets/webfonts/lmroman10-italic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Latin Modern Roman';
-  src: url('../assets/webfonts/lmroman10-bolditalic-webfont.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-}
-
 body {
-  font-family: 'Latin Modern Roman', serif; /* Set Latin Modern Roman as the global font */
+  font-family: 'Open Sans', sans-serif;
 }
 
 #main {
@@ -67,17 +39,15 @@ body {
 }
 
 .page__title {
-  margin-top: 0;
-  line-height: 1;
-
-  & + .page__meta {
-    margin-top: -0.5em;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 2.5rem; /* Adjust size as needed */
 }
 
 .page__lead {
-  font-family: 'Latin Modern Roman';
-  font-size: $type-size-4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semi-Bold */
+  font-size: 1.5rem;
 }
 
 .page__content {
@@ -118,13 +88,13 @@ body {
 
   dt {
     margin-top: 1em;
-    font-family: 'Latin Modern Roman';
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
   }
 
   dd {
     margin-left: 1em;
-    font-family: 'Latin Modern Roman';
+    font-family: 'Open Sans', sans-serif;
     font-size: $type-size-6;
   }
 
@@ -260,7 +230,7 @@ body {
 .page__meta {
   margin-top: 2em;
   color: mix(#fff, $gray, 25%);
-  font-family: 'Latin Modern Roman';
+  font-family: 'Open Sans', sans-serif;
   font-size: $type-size-6;
 
   p {
