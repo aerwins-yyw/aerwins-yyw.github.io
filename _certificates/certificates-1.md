@@ -11,6 +11,9 @@ I gained a solid foundation in statistical concepts, including probability, infe
 
 The hands-on approach and real-world case studies made the learning process engaging and relevant. For example, I explored trends in global health, US crime rates, the financial crisis of 2007-2008, and even practical applications like building movie recommendation systems or analyzing sports data inspired by "Moneyball." These case studies helped me grasp the real impact of data science in various fields.
 
-Here is the record of the program including the grades I received for each course: [Program Record](https://credentials.edx.org/records/programs/shared/d31ced0eff8a4454b16774465b233818).
+Here is the record of the program including the grades I received for each course: [Program Record](https://credentials.edx.org/records/programs/shared/d31ced0eff8a4454b16774465b233818). Those courses are finished and the certificates of each course are earned within 1 year and a half time.
+
+(the certificates of each course)
 
 There are two capstone projects that I finished for this program. First is a movie recommendation system and the second one is a wine quality classification model. 
+
