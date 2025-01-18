@@ -5,7 +5,7 @@ collection: certificates
 permalink: /certificates/certificates-1
 ---
 
-I have successfully completed the HarvardX Data Science Professional Certificate Program, an intensive series of 9 courses designed to build a strong foundation in data science concepts and tools. This program provided me with in-depth knowledge of essential data science principles and the practical skills needed to tackle real-world data analysis challenges across industries, academia, and government.
+I have successfully completed the HarvardX Data Science Professional Certificate Program, an intensive series of 9 courses offered by Harvard University and EdX. This program is designed to build a strong foundation in data science concepts and tools. It provided me with in-depth knowledge of essential data science principles and the practical skills needed to tackle real-world data analysis challenges across industries, academia, and government.
 
 I gained a solid foundation in statistical concepts, including probability, inference, and modeling. More importantly, I learned how to apply these concepts in implementing machine learning models. 
 
