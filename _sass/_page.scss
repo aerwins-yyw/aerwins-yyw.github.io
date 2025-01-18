@@ -4,8 +4,6 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.9rem; /* Default size (reduce from 1rem) */
-  line-height: 1.5; /* Adjust for readability */
 }
 
 #main {
@@ -42,85 +40,72 @@ body {
 
 .page__title {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 2rem; /* Reduce from 2.5rem */
+  font-weight: 700; /* Bold */
+  font-size: 2rem; /* Adjust size as needed */
 }
 
 .page__lead {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem; /* Reduce from 1.5rem */
+  font-weight: 600; /* Semi-Bold */
+  font-size: 1.2rem;
 }
+
 .page__content {
+
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color; /* Ensure $border-color is defined */
-    font-size: 1.5rem; /* Optional: Adjust heading size */
-    font-weight: 600; /* Optional: Enhance heading styling */
+    border-bottom: 1px solid $border-color;
   }
 
-  p,
-  li,
-  dl {
-    font-size: 0.9rem; /* Reduce size slightly from 1em */
-    line-height: 1.6; /* Improve readability */
-    margin-bottom: 1rem; /* Add consistent spacing */
+  p, li, dl {
+    font-size: 1em;
   }
 
-  /* Paragraph styles */
+  /* paragraph indents */
   p {
-    margin: 0 0 1rem; /* Consistent margin for paragraphs */
+    margin: 0 0 $indent-var;
 
-    /* Indentation for consecutive paragraphs (optional) */
+    /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
-        text-indent: 1.5rem; /* Ensure $indent-var is defined */
-        margin-top: -1rem; /* Optional: Overlap space */
+        text-indent: $indent-var;
+        margin-top: -($indent-var);
       }
     }
   }
 
-  /* Link styles */
   a {
     text-decoration: underline;
-    color: $link-color; /* Use a variable for consistent link colors */
 
     &:hover {
-      text-decoration: none; /* Remove underline on hover */
-      color: darken($link-color, 10%); /* Optional: Slightly darker hover color */
+      text-decoration: underline;
 
       img {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Ensure consistent color definition */
+        box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
   }
 
-  /* Definitions */
   dt {
     margin-top: 1em;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 1rem; /* Define size explicitly */
   }
 
   dd {
     margin-left: 1em;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.9rem; /* Match other text sizes */
-    line-height: 1.5;
+    font-size: $type-size-6;
   }
 
-  /* Small text */
   .small {
-    font-size: 0.8rem; /* Ensure consistent size */
+    font-size: $type-size-6;
   }
 
-  /* Blockquote citations */
+  /* blockquote citations */
   blockquote + .small {
-    margin-top: -1rem; /* Adjust margin for better alignment */
+    margin-top: -1.5em;
     padding-left: 1.25rem;
-    font-style: italic; /* Optional: Italicize citations */
-    color: $muted-text-color; /* Use a muted text color for better contrast */
   }
 }
 
