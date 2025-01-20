@@ -4,6 +4,6 @@ excerpt: "<img src='/images/Harvard_DS_Capstone2.png'>"
 collection: projects
 ---
 
-Abstract: ....
+## Abstract: 
 
-The complete report file could be downloaded here. Harvard_DS_Capstone2.
+The complete report file could be downloaded here: [Harvard DS Capstone 2](/files/Harvard_DS_Capstone2.pdf)
