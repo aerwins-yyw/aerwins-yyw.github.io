@@ -280,6 +280,23 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # Nested categories under _projects
+  - scope:
+      path: "machine-learning"
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: "public-policy"
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _certificates
   - scope:
       path: ""
