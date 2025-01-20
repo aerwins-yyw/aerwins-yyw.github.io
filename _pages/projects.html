@@ -12,14 +12,18 @@ author_profile: true
 <h2>Machine Learning Projects</h2>
 <p>These are some machine learning projects that I have done as part of my learning:</p>
 
-{% for post in site.projects.machine-learning %}
-  {% include archive-single.html %}
+{% for post in site.projects %}
+  {% if post.category == "machine-learning" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 <h2>Causal Analysis Project</h2>
 <p>I have also worked on one causal analysis project that measures the impact of the ASEAN Smart Cities Network on urban development. 
 The quantitative research is done using the General Synthetic Control Method, supported by relevant qualitative research.</p>
 
-{% for post in site.projects.public-policy %}
-  {% include archive-single.html %}
+{% for post in site.projects %}
+  {% if post.category == "public-policy" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
