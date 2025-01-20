@@ -1,7 +1,7 @@
 ---
 title: "Supervised Machine Learning - Regression Models (Harvard DS Capstone Project 1)"
 excerpt: "<img src='/images/Harvard_DS_Capstone1.png'>"
-collection: projects
+collection: projects.machine-learning
 ---
 
 ## Abstract: 

@@ -1,7 +1,7 @@
 ---
 title: "Supervised Machine Learning - Classification Models (Harvard DS Capstone Project 2)"
 excerpt: "<img src='/images/Harvard_DS_Capstone2.png'>"
-collection: projects
+collection: projects.machine-learning
 ---
 
 ## Abstract: 
