@@ -6,29 +6,51 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<p>Below are some of my published articles:</p>
 
+<h2>Kompaspedia Articles</h2>
+<em>Note: writings published on Kompas platforms are attributed to the editor (as corporate policy requires), but the author's name appears at the end of the page under the title 'Contributor'. All are in Indonesian.</em>
 
-<p>Below are some published articles</p>
+<!-- Data & AI Policy Section -->
+<h3>Data & AI Policy</h3>
+<ul>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/upaya-memperkuat-perlindungan-data-pribadi" target="_blank">Efforts to Strengthen Personal Data Protection</a></li>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/perkembangan-kecerdasan-buatan-dan-dampaknya" target="_blank">The Development of Artificial Intelligence and Its Impact</a></li>
+</ul>
 
-<h2>Machine Learning Projects</h2>
-<p>These are some machine learning projects that I have done as part of my learning:</p>
+<!-- Science-Technology Innovation Policy & Industrial Policy Section -->
+<h3>Science-Technology Innovation Policy & Industrial Policy</h3>
+<ul>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/membangkitkan-kembali-pariwisata-indonesia" target="_blank">Realizing the National Semiconductor Industry</a></li>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/pengembangan-industri-aluminium-indonesia" target="_blank">The Development of Indonesia's Aluminum Industry</a></li>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/sejarah-produksi-dan-kebijakan-hilirisasi-bauksit-dan-aluminium" target="_blank">History, Production, and Downstream Policy of Bauxite and Aluminum</a></li>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/industri-nikel-indonesia-sejarah-produksi-kebijakan-dan-tantangan" target="_blank">Indonesia's Nickel Industry: History, Production, Policy, and Challenges</a></li>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/pertambangan-timah-sejarah-produksi-dan-ekspor-timah-indonesia" target="_blank">Tin Mining: History, Production, and Tin Exports from Indonesia</a></li>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/perkembangan-industri-tembaga-nasional" target="_blank">The Development of the National Copper Industry</a></li>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/upaya-mempercepat-kedaulatan-teknologi" target="_blank">Efforts to Accelerate Technological Sovereignty</a></li>
+</ul>
 
+<!-- Development & Climate Policy Section -->
+<h3>Development & Climate Policy</h3>
+<ul>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/mekanisme-perdagangan-karbon" target="_blank">Carbon Trading Mechanism</a></li>
+  <li><a href="https://kompaspedia.kompas.id/baca/paparan-topik/seluk-beluk-perdagangan-karbon-di-indonesia" target="_blank">The Ins and Outs of Carbon Trading in Indonesia</a></li>
+</ul>
 
-
-<!-- New style rendering if publication categories are defined -->
+<!-- Jekyll Style for Publication Categories -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
+        <hr />
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
@@ -39,6 +61,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
