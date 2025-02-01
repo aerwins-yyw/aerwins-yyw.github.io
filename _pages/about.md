@@ -11,6 +11,7 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 
 ---
 ### Skills
+- Professional Certificates: Harvard Data Science Professional Certificate, IBM Data Science Professional Certificate
 - Programming: R, Python, SQL
 - Supervised and Unsupervised Machine Learning Models
 - Databases: MySQL, IBM DB2
