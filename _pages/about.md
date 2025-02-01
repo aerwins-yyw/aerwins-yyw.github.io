@@ -15,7 +15,7 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 - Programming: R, Python, SQL
 - Supervised and Unsupervised Machine Learning Models
 - Databases: MySQL, IBM DB2
-- Data Visualization: Flourish, R, Plotly, MS Excel, MS Powerpoint, Canva 
+- Data Visualization: Flourish, R, Python, Plotly, Canva 
 
 ### Qualifications
 - 3 years of working experience in education, research, and government relations  
