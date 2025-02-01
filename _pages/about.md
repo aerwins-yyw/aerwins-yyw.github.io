@@ -27,8 +27,8 @@ I am currently pursuing a master's degree at Tsinghua University, Beijing, China
 ### Language Proficiency
 - 🇮🇩 Indonesian: Native  
 - 🇬🇧 English: Fluent (IELTS Band 8, TOEFL iBT 104/120)  
-- 🇨🇳 Chinese: Advanced (HSK 6)  
-- 🇫🇷 French: Intermediate (DELF B2)  
+- 🇨🇳 Chinese: Advanced  
+- 🇫🇷 French: Intermediate 
 
 ## PROFESSIONAL EXPERIENCE
 
