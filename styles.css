@@ -299,6 +299,9 @@ button { font-family: inherit; cursor: pointer; border: none; }
 .section {
   padding: 72px 0;
 }
+.section + .section {
+  padding-top: 0;
+}
 .divider {
   border: none;
   border-top: 1px solid var(--border);
