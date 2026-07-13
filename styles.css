@@ -399,6 +399,7 @@ button { font-family: inherit; cursor: pointer; border: none; }
   letter-spacing: -.01em;
 }
 .project-desc { font-size: 12px; line-height: 1.8; color: var(--text-3); flex: 1; }
+.project-links { display: flex; gap: 16px; margin-top: 4px; }
 .project-link {
   font-size: 12px;
   font-weight: 500;
@@ -406,7 +407,6 @@ button { font-family: inherit; cursor: pointer; border: none; }
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  margin-top: 4px;
 }
 .project-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
