@@ -70,6 +70,7 @@
     <div class="footer-links">
       <a href="https://www.linkedin.com/in/albertus-erwin-s/" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
       <a href="https://github.com/aerwins-yyw" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+      <a href="https://www.instagram.com/aubert_erwin/" target="_blank" rel="noopener" class="footer-link">Instagram</a>
       <a href="mailto:altusersanto@gmail.com" class="footer-link">Email</a>
     </div>
   </div>
