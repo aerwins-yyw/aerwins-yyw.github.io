@@ -535,6 +535,11 @@ button { font-family: inherit; cursor: pointer; border: none; }
   background: #1e293b;
   border: 1px solid var(--border);
 }
+.cta-strip-inline {
+  margin: 0;
+  padding: 28px 32px;
+  flex-wrap: wrap;
+}
 .cta-strip-text h2 {
   font-size: 20px;
   font-weight: 700;
@@ -681,6 +686,7 @@ footer { border-top: 1px solid var(--border); }
   .timeline-item { grid-template-columns: 1fr; gap: 4px; }
   .pub-item { grid-template-columns: 1fr; gap: 4px; }
   .cta-strip { flex-direction: column; text-align: center; padding: 40px 28px; }
+  .cta-strip-inline { padding: 28px 24px; }
   .cta-socials { justify-content: center; flex-wrap: wrap; }
 }
 @media (max-width: 700px) {
