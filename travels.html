@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travels — Erwin Susanto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+<div class="page">
+
+  <div class="page-header">
+    <p class="page-header-eyebrow" data-en="Map" data-zh="地图" data-id="Peta" data-fr="Carte">Map</p>
+    <h1 class="page-header-title" data-en="Places I've lived, studied, and worked" data-zh="我生活、求学与工作过的地方" data-id="Tempat-tempat saya pernah tinggal, belajar, dan bekerja" data-fr="Lieux où j'ai vécu, étudié et travaillé">Places I've lived, studied, and worked</h1>
+    <p class="page-header-sub" data-en="A running map of long-term stays, business and conference trips, and tourism. Click a marker for details." data-zh="记录长期居留、商务与会议出差以及旅行足迹的地图，点击标记查看详情。" data-id="Peta yang mencatat tempat tinggal jangka panjang, perjalanan bisnis dan konferensi, serta wisata. Klik penanda untuk melihat detail." data-fr="Une carte évolutive des longs séjours, des voyages d'affaires et de conférences, et du tourisme. Cliquez sur un repère pour plus de détails.">A running map of long-term stays, business and conference trips, and tourism. Click a marker for details.</p>
+  </div>
+
+  <section class="section fade-in">
+    <div class="map-card">
+      <div class="travel-legend" id="travel-legend"></div>
+      <div id="travel-map"></div>
+    </div>
+  </section>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="main.js?v=3"></script>
+<script src="travels.js?v=1"></script>
+</body>
+</html>
