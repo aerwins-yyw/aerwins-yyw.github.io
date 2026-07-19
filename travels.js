@@ -1,9 +1,9 @@
 (function () {
   'use strict';
 
-  // Paste your Google Sheet "Publish to web → CSV" link here once it's ready.
-  // Until then, the page falls back to SAMPLE_DATA below so the map has something to show.
-  const CSV_URL = '';
+  // Google Sheet must be shared as "Anyone with the link -> Viewer" for this to work.
+  // Falls back to SAMPLE_DATA below if the fetch fails (private sheet, network error, etc).
+  const CSV_URL = 'https://docs.google.com/spreadsheets/d/1dHhJzxf6HdJPZTXysYTFntRP3Z2AGlS3cgxdSmwT0DI/export?format=csv&gid=0';
 
   // Fixed hue order — validated for colorblind-safe separation. Categories are
   // assigned slots in first-seen order; a 5th+ category falls back to a neutral grey.
