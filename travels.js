@@ -57,7 +57,8 @@
       category: row.category || 'Other',
       activity: row.activity || '',
       dates: row.dates || '',
-      description: row.description || ''
+      description: row.description || '',
+      image: row.image || ''
     };
   }
 
@@ -83,11 +84,14 @@
         fillColor: colorFor(row.category),
         fillOpacity: 0.9
       });
+      const parts = [];
+      if (row.image) parts.push(`<img class="travel-popup-img" src="${escapeHtml(row.image)}" alt="${escapeHtml(row.place)}" loading="lazy" />`);
       const lines = [`<strong>${escapeHtml(row.place)}</strong>`];
       if (row.activity) lines.push(escapeHtml(row.activity));
       if (row.dates) lines.push(escapeHtml(row.dates));
-      if (row.description) lines.push(escapeHtml(row.description));
-      marker.bindPopup(lines.join('<br/>'));
+      parts.push(lines.join('<br/>'));
+      if (row.description) parts.push(`<p class="travel-popup-story">${escapeHtml(row.description)}</p>`);
+      marker.bindPopup(parts.join(''), { maxWidth: 260 });
       marker.addTo(markersLayer);
     });
     renderLegend();
