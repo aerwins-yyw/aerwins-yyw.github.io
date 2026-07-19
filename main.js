@@ -28,6 +28,7 @@
       <a href="about.html" class="nav-link" data-en="About" data-zh="关于" data-id="Tentang" data-fr="À propos">About</a>
       <a href="experience.html" class="nav-link" data-en="Experience" data-zh="经历" data-id="Pengalaman" data-fr="Expérience">Experience</a>
       <a href="projects.html" class="nav-link" data-en="Projects" data-zh="项目" data-id="Proyek" data-fr="Projets">Projects</a>
+      <a href="aerie.html" class="nav-link" data-en="Aerie" data-zh="Aerie" data-id="Aerie" data-fr="Aerie">Aerie</a>
       <a href="education.html" class="nav-link" data-en="Education" data-zh="教育" data-id="Pendidikan" data-fr="Formation">Education</a>
       <a href="certificates.html" class="nav-link" data-en="Certificates" data-zh="证书" data-id="Sertifikasi" data-fr="Certificats">Certificates</a>
       <a href="resume.html" class="nav-link" data-en="Resume" data-zh="简历" data-id="Resume" data-fr="CV">Resume</a>
@@ -48,6 +49,7 @@
     <a href="about.html" class="nav-link" data-en="About" data-zh="关于" data-id="Tentang" data-fr="À propos">About</a>
     <a href="experience.html" class="nav-link" data-en="Experience" data-zh="经历" data-id="Pengalaman" data-fr="Expérience">Experience</a>
     <a href="projects.html" class="nav-link" data-en="Projects" data-zh="项目" data-id="Proyek" data-fr="Projets">Projects</a>
+    <a href="aerie.html" class="nav-link" data-en="Aerie" data-zh="Aerie" data-id="Aerie" data-fr="Aerie">Aerie</a>
     <a href="education.html" class="nav-link" data-en="Education" data-zh="教育" data-id="Pendidikan" data-fr="Formation">Education</a>
     <a href="certificates.html" class="nav-link" data-en="Certificates" data-zh="证书" data-id="Sertifikasi" data-fr="Certificats">Certificates</a>
     <a href="resume.html" class="nav-link" data-en="Resume" data-zh="简历" data-id="Resume" data-fr="CV">Resume</a>
