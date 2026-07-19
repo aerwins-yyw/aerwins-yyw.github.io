@@ -446,7 +446,7 @@ button { font-family: inherit; cursor: pointer; border: none; }
   white-space: nowrap;
 }
 .pub-title { font-size: 12px; font-weight: 500; color: var(--text); line-height: 1.6; margin-bottom: 4px; }
-.pub-title a { color: var(--accent); }
+.pub-title a { color: var(--text); }
 .pub-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .pub-venue { font-size: 12px; color: var(--text-3); }
 
