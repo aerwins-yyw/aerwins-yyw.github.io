@@ -225,9 +225,8 @@ button { font-family: inherit; cursor: pointer; border: none; }
   display: grid;
   grid-template-columns: 1fr 300px;
   gap: 72px;
-  align-items: center;
-  min-height: min(640px, calc(100vh - var(--nav-h)));
-  padding: 72px 0 80px;
+  align-items: start;
+  padding: 88px 0 96px;
 }
 .hero-eyebrow {
   font-size: 11px;
@@ -276,7 +275,7 @@ button { font-family: inherit; cursor: pointer; border: none; }
   flex-shrink: 0;
 }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
-.hero-photo-wrap { position: relative; align-self: center; width: 100%; max-width: 300px; margin: 0 auto; }
+.hero-photo-wrap { position: relative; align-self: start; width: 100%; max-width: 300px; margin: 4px auto 0; }
 .hero-photo {
   width: 100%;
   aspect-ratio: 1/1;
