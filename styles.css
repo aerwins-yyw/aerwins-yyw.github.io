@@ -480,6 +480,30 @@ button { font-family: inherit; cursor: pointer; border: none; }
 .timeline-desc { font-size: 12px; line-height: 1.8; color: var(--text-3); }
 .timeline-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 
+/* ── Per-line description lists ── */
+.desc-list {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.desc-list li { position: relative; padding-left: 14px; }
+.desc-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--text-4);
+}
+
 /* ── Skills ── */
 .skills-grid {
   display: grid;
