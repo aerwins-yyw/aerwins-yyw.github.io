@@ -425,6 +425,42 @@ button { font-family: inherit; cursor: pointer; border: none; }
 }
 .project-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
+/* ── Language proficiency cards ── */
+.language-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.language-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow .2s, transform .2s;
+}
+.language-card:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+.language-head { display: flex; align-items: center; gap: 10px; }
+.language-flag { font-size: 24px; line-height: 1; }
+.language-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -.01em;
+}
+.language-level {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 20px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  width: fit-content;
+}
+.language-fact { font-size: 12px; line-height: 1.8; color: var(--text-3); }
+
 /* ── Publications & Involvement list (shared) ── */
 .pub-list { display: flex; flex-direction: column; }
 .pub-item:first-child { border-top: 1px solid var(--border); }
@@ -779,6 +815,7 @@ footer { border-top: 1px solid var(--border); }
   .project-grid { grid-template-columns: 1fr; }
   .features { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .language-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 920px) {
   .nav-links { display: none; }
