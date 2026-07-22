@@ -748,35 +748,12 @@ footer { border-top: 1px solid var(--border); }
   padding-top: 14px;
 }
 .pipeline-arrow svg { width: 18px; height: 18px; display: block; }
-.pipeline-loop {
-  margin-top: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-}
-.pipeline-loop-svg {
-  width: 100%;
-  max-width: 620px;
-  height: 44px;
-  display: block;
-}
-.pipeline-loop-svg path { stroke: var(--accent); }
-.pipeline-loop-svg .loop-arrowhead { fill: var(--accent); }
-.pipeline-loop-label {
-  font-size: 11px;
-  font-weight: 500;
-  color: var(--accent);
-  text-align: center;
-  max-width: 460px;
-}
 @media (max-width: 700px) {
   .pipeline { flex-direction: column; align-items: stretch; gap: 0; }
   .pipeline-step { flex-direction: row; text-align: left; justify-content: flex-start; gap: 16px; padding: 6px 0; }
   .pipeline-label { max-width: none; }
   .pipeline-arrow { align-self: flex-start; margin-left: 25px; padding: 2px 0; }
   .pipeline-arrow svg { transform: rotate(90deg); }
-  .pipeline-loop-svg { display: none; }
 }
 
 /* ── Scroll fade-in ── */

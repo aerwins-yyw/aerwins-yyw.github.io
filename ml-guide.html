@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=9" />
+  <link rel="stylesheet" href="styles.css?v=10" />
 </head>
 <body>
 
@@ -86,17 +86,6 @@
           </div>
           <p class="pipeline-label" data-en="Deployment" data-zh="部署" data-id="Penerapan" data-fr="Déploiement">Deployment</p>
         </div>
-      </div>
-      <div class="pipeline-loop">
-        <svg class="pipeline-loop-svg" viewBox="0 0 1000 90" preserveAspectRatio="none" aria-hidden="true">
-          <defs>
-            <marker id="pipelineLoopArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path class="loop-arrowhead" d="M0,0 L8,4 L0,8 Z"/>
-            </marker>
-          </defs>
-          <path d="M 930 10 C 930 78, 260 78, 70 10" fill="none" stroke-width="2" stroke-dasharray="1 7" stroke-linecap="round" marker-end="url(#pipelineLoopArrow)"/>
-        </svg>
-        <p class="pipeline-loop-label" data-en="Generative AI closes data gaps and speeds iteration across the loop" data-zh="生成式 AI 弥补数据缺口，加速这一迭代循环" data-id="AI generatif menutup kesenjangan data dan mempercepat iterasi dalam siklus ini" data-fr="L'IA générative comble les lacunes de données et accélère cette boucle d'itération">Generative AI closes data gaps and speeds iteration across the loop</p>
       </div>
     </div>
   </section>
@@ -178,7 +167,7 @@
           <text x="285" y="38" text-anchor="middle" style="fill:var(--accent); font-size:9px; font-weight:700">10%</text>
         </svg>
         <h3 class="feature-title" data-en="90/10 Split" data-zh="90/10 划分" data-id="Pembagian 90/10" data-fr="Répartition 90/10">90/10 Split</h3>
-        <p class="feature-desc" data-en="Movie Recommendation Engine: the 10M-rating dataset is divided into a 90% working set for training and tuning, and a 10% final validation set touched only once, at the very end." data-zh="电影推荐系统：将 1000 万评分数据集划分为 90% 的工作集（用于训练与调参）和 10% 的最终验证集，验证集仅在最后阶段使用一次。" data-id="Movie Recommendation Engine: dataset 10 juta rating dibagi menjadi 90% working set untuk pelatihan dan tuning, serta 10% validation set akhir yang hanya disentuh satu kali, di tahap paling akhir." data-fr="Moteur de recommandation de films : le jeu de données de 10 millions d'évaluations est divisé en un ensemble de travail de 90 % pour l'entraînement et le réglage, et un ensemble de validation final de 10 % utilisé une seule fois, à la toute fin.">Movie Recommendation Engine: the 10M-rating dataset is divided into a 90% working set for training and tuning, and a 10% final validation set touched only once, at the very end.</p>
+        <p class="feature-desc" data-en="A common way to hold out data: split into a larger working set for training and tuning, plus a smaller set left untouched until the very end and used exactly once to report the final result. The Movie Recommendation Engine follows this shape, splitting its 10M-rating dataset 90/10." data-zh="预留数据的一种常见方式：划分为较大的工作集（用于训练与调参），以及一个更小的、始终未被使用的集合，仅在最后阶段使用一次以报告最终结果。电影推荐系统正是采用这一方式，将 1000 万评分数据集按 90/10 划分。" data-id="Cara umum untuk menyisihkan data: membaginya menjadi working set yang lebih besar untuk pelatihan dan tuning, ditambah set yang lebih kecil yang tidak disentuh sampai akhir dan digunakan tepat satu kali untuk melaporkan hasil akhir. Movie Recommendation Engine mengikuti pola ini, membagi dataset 10 juta rating-nya 90/10." data-fr="Une façon courante de mettre des données de côté : diviser en un ensemble de travail plus large pour l'entraînement et le réglage, et un ensemble plus restreint laissé intact jusqu'à la toute fin puis utilisé une seule fois pour rapporter le résultat final. Le moteur de recommandation de films suit ce schéma, en répartissant son jeu de données de 10 millions d'évaluations selon un ratio 90/10.">A common way to hold out data: split into a larger working set for training and tuning, plus a smaller set left untouched until the very end and used exactly once to report the final result. The Movie Recommendation Engine follows this shape, splitting its 10M-rating dataset 90/10.</p>
       </div>
       <div class="feature-card">
         <svg viewBox="0 0 300 90" width="100%" height="90" role="img" aria-hidden="true" style="display:block; margin-bottom:16px">
@@ -190,7 +179,7 @@
           <text x="0" y="86" style="fill:var(--text-3); font-size:9px">Balanced</text>
         </svg>
         <h3 class="feature-title" data-en="Imbalanced vs. Balanced" data-zh="不平衡 vs. 平衡" data-id="Tidak Seimbang vs. Seimbang" data-fr="Déséquilibré vs équilibré">Imbalanced vs. Balanced</h3>
-        <p class="feature-desc" data-en="Red Wine Quality Classification: the model is scored on the original, imbalanced class split and again on a resampled, balanced version, so a high overall accuracy can't hide a missed minority class." data-zh="红酒质量分类：模型分别在原始的不平衡类别数据，以及重采样后的平衡数据上进行评分，避免高整体准确率掩盖对少数类别的漏判。" data-id="Red Wine Quality Classification: model dinilai pada pembagian kelas asli yang tidak seimbang, dan sekali lagi pada versi yang di-resample menjadi seimbang, sehingga akurasi keseluruhan yang tinggi tidak dapat menyembunyikan kelas minoritas yang terlewat." data-fr="Classification de la qualité du vin rouge : le modèle est évalué sur la répartition de classes déséquilibrée d'origine, puis à nouveau sur une version rééchantillonnée et équilibrée, afin qu'une exactitude globale élevée ne puisse pas masquer une classe minoritaire manquée.">Red Wine Quality Classification: the model is scored on the original, imbalanced class split and again on a resampled, balanced version, so a high overall accuracy can't hide a missed minority class.</p>
+        <p class="feature-desc" data-en="When classes are unevenly distributed, a model can post a high overall accuracy while quietly missing the minority class it's actually meant to catch. Scoring it on both the original, imbalanced split and a resampled, balanced version exposes that gap. Red Wine Quality Classification takes this approach." data-zh="当类别分布不均衡时，模型可能整体准确率很高，却悄悄漏判了其真正需要捕捉的少数类别。分别在原始的不平衡数据，以及重采样后的平衡数据上进行评分，便能揭示这一差距。红酒质量分类正是采用这一方法。" data-id="Ketika distribusi kelas tidak merata, model bisa mencatat akurasi keseluruhan yang tinggi namun diam-diam melewatkan kelas minoritas yang sebenarnya ingin ditangkap. Menilai model pada pembagian asli yang tidak seimbang, dan sekali lagi pada versi yang di-resample menjadi seimbang, mengungkap kesenjangan tersebut. Red Wine Quality Classification menggunakan pendekatan ini." data-fr="Lorsque les classes sont réparties de façon inégale, un modèle peut afficher une exactitude globale élevée tout en manquant discrètement la classe minoritaire qu'il est censé détecter. L'évaluer à la fois sur la répartition déséquilibrée d'origine et sur une version rééchantillonnée et équilibrée révèle cet écart. La classification de la qualité du vin rouge adopte cette approche.">When classes are unevenly distributed, a model can post a high overall accuracy while quietly missing the minority class it's actually meant to catch. Scoring it on both the original, imbalanced split and a resampled, balanced version exposes that gap. Red Wine Quality Classification takes this approach.</p>
       </div>
       <div class="feature-card">
         <svg viewBox="0 0 300 90" width="100%" height="90" role="img" aria-hidden="true" style="display:block; margin-bottom:16px">
@@ -207,7 +196,7 @@
           <line x1="170" y1="12" x2="170" y2="72" style="stroke:var(--accent); stroke-width:1.25; stroke-dasharray:3,3"></line>
         </svg>
         <h3 class="feature-title" data-en="Bootstrap → Confidence Interval" data-zh="自助法 → 置信区间" data-id="Bootstrap → Interval Kepercayaan" data-fr="Bootstrap → intervalle de confiance">Bootstrap → Confidence Interval</h3>
-        <p class="feature-desc" data-en="Smart City Policy Impact Modeling: the sample is resampled with replacement many times over, and the spread of the resulting estimates becomes the reported 95% confidence interval around the effect." data-zh="智慧城市政策影响评估：对样本进行多次有放回重采样，所得估计值的离散程度即构成所报告的效应 95% 置信区间。" data-id="Smart City Policy Impact Modeling: sampel di-resample dengan pengembalian berkali-kali, dan sebaran estimasi yang dihasilkan menjadi interval kepercayaan 95% yang dilaporkan di sekitar efek tersebut." data-fr="Modélisation de l'impact des politiques de villes intelligentes : l'échantillon est rééchantillonné avec remise à de nombreuses reprises, et la dispersion des estimations obtenues constitue l'intervalle de confiance à 95 % rapporté autour de l'effet.">Smart City Policy Impact Modeling: the sample is resampled with replacement many times over, and the spread of the resulting estimates becomes the reported 95% confidence interval around the effect.</p>
+        <p class="feature-desc" data-en="Where the goal is a range rather than a single number, the data is resampled with replacement many times over, and the spread of the resulting estimates becomes the reported interval instead of one lone figure. Smart City Policy Impact Modeling uses this to report its 95% confidence interval around the estimated effect." data-zh="当目标是一个区间而非单一数值时，可对数据进行多次有放回重采样，并将所得估计值的离散程度作为报告区间，而非单一数字。智慧城市政策影响评估正是借此报告其估计效应的 95% 置信区间。" data-id="Ketika tujuannya adalah sebuah rentang, bukan angka tunggal, data di-resample dengan pengembalian berkali-kali, dan sebaran estimasi yang dihasilkan menjadi interval yang dilaporkan, bukan satu angka tunggal. Smart City Policy Impact Modeling menggunakan ini untuk melaporkan interval kepercayaan 95% di sekitar efek yang diestimasi." data-fr="Lorsque l'objectif est un intervalle plutôt qu'un chiffre unique, les données sont rééchantillonnées avec remise à de nombreuses reprises, et la dispersion des estimations obtenues devient l'intervalle rapporté plutôt qu'un chiffre isolé. La modélisation de l'impact des politiques de villes intelligentes s'en sert pour rapporter son intervalle de confiance à 95 % autour de l'effet estimé.">Where the goal is a range rather than a single number, the data is resampled with replacement many times over, and the spread of the resulting estimates becomes the reported interval instead of one lone figure. Smart City Policy Impact Modeling uses this to report its 95% confidence interval around the estimated effect.</p>
       </div>
     </div>
   </section>
