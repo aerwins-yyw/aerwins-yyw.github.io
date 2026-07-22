@@ -329,7 +329,6 @@ button { font-family: inherit; cursor: pointer; border: none; }
   color: var(--text-3);
   line-height: 1.8;
   margin-bottom: 36px;
-  max-width: 620px;
 }
 .section-title + .skills-grid,
 .section-title + .timeline,
