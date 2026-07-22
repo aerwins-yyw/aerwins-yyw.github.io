@@ -13,7 +13,7 @@
 
 <div class="page">
 
-  <div class="page-header">
+  <div class="page-header" style="border-bottom:none">
     <a href="projects.html" class="project-link" style="margin-bottom:16px" data-en="← Back to Projects" data-zh="← 返回项目" data-id="← Kembali ke Proyek" data-fr="← Retour aux projets">← Back to Projects</a>
     <p class="page-header-eyebrow" data-en="Behind the Projects" data-zh="项目背后" data-id="Di Balik Proyek" data-fr="Dans les coulisses des projets">Behind the Projects</p>
     <h1 class="page-header-title" data-en="How I Build a Machine Learning Project" data-zh="我如何构建机器学习项目" data-id="Cara Saya Membangun Proyek Machine Learning" data-fr="Comment je construis un projet de machine learning">How I Build a Machine Learning Project</h1>
@@ -21,8 +21,8 @@
   </div>
 
   <!-- Pipeline overview illustration -->
-  <section class="section fade-in" style="padding-bottom:0">
-    <div class="pipeline-wrap">
+  <section class="section fade-in" style="padding:32px 0 56px">
+    <div class="pipeline-wrap" style="padding-top:0">
       <div class="pipeline">
         <div class="pipeline-step">
           <div class="pipeline-node" aria-hidden="true">
@@ -70,7 +70,7 @@
               <path d="M9 12l2 2 4-4"/>
             </svg>
           </div>
-          <p class="pipeline-label" data-en="Evaluation" data-zh="评估" data-id="Evaluasi" data-fr="Évaluation">Evaluation</p>
+          <p class="pipeline-label" data-en="Train, Test, Validate" data-zh="训练、测试、验证" data-id="Latih, Uji, Validasi" data-fr="Entraînement, test, validation">Train, Test, Validate</p>
         </div>
         <div class="pipeline-arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
@@ -78,12 +78,13 @@
         <div class="pipeline-step">
           <div class="pipeline-node" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="20" x2="5" y2="14"/>
-              <line x1="12" y1="20" x2="12" y2="9"/>
-              <line x1="19" y1="20" x2="19" y2="5"/>
+              <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+              <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+              <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+              <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
             </svg>
           </div>
-          <p class="pipeline-label" data-en="Results" data-zh="结果" data-id="Hasil" data-fr="Résultats">Results</p>
+          <p class="pipeline-label" data-en="Deployment" data-zh="部署" data-id="Penerapan" data-fr="Déploiement">Deployment</p>
         </div>
       </div>
       <div class="pipeline-loop">
@@ -99,6 +100,8 @@
       </div>
     </div>
   </section>
+
+  <hr class="divider" />
 
   <!-- Problem framing -->
   <section class="section fade-in">
