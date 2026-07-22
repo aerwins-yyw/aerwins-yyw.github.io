@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=8" />
+  <link rel="stylesheet" href="styles.css?v=9" />
 </head>
 <body>
 
@@ -19,6 +19,86 @@
     <h1 class="page-header-title" data-en="How I Build a Machine Learning Project" data-zh="我如何构建机器学习项目" data-id="Cara Saya Membangun Proyek Machine Learning" data-fr="Comment je construis un projet de machine learning">How I Build a Machine Learning Project</h1>
     <p class="page-header-sub" data-en="A walkthrough of the process behind the Data Science &amp; Applied Machine Learning projects: problem framing, data, features, evaluation, and where generative AI fits in, illustrated throughout with examples from this site." data-zh="拆解「数据科学与应用机器学习」板块各项目背后的完整流程：问题定义、数据、特征、评估方法，以及生成式 AI 在其中扮演的角色，并全程以本站项目为例说明。" data-id="Penjelasan proses di balik proyek-proyek Data Science &amp; Applied Machine Learning: perumusan masalah, data, fitur, evaluasi, dan peran AI generatif, disertai contoh dari proyek-proyek di situs ini sepanjang penjelasan." data-fr="Un aperçu du processus derrière les projets de science des données et d'apprentissage automatique appliqué : définition du problème, données, caractéristiques, évaluation, et la place de l'IA générative, illustré tout du long par des exemples tirés de ce site.">A walkthrough of the process behind the Data Science &amp; Applied Machine Learning projects: problem framing, data, features, evaluation, and where generative AI fits in, illustrated throughout with examples from this site.</p>
   </div>
+
+  <!-- Pipeline overview illustration -->
+  <section class="section fade-in" style="padding-bottom:0">
+    <div class="pipeline-wrap">
+      <div class="pipeline">
+        <div class="pipeline-step">
+          <div class="pipeline-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="8"/>
+              <circle cx="12" cy="12" r="4.2"/>
+              <circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <p class="pipeline-label" data-en="Problem Framing" data-zh="问题定义" data-id="Perumusan Masalah" data-fr="Définition du problème">Problem Framing</p>
+        </div>
+        <div class="pipeline-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5.5" rx="7.5" ry="3"/>
+              <path d="M4.5 5.5V18.5C4.5 20.16 7.86 21.5 12 21.5C16.14 21.5 19.5 20.16 19.5 18.5V5.5"/>
+              <path d="M4.5 12C4.5 13.66 7.86 15 12 15C16.14 15 19.5 13.66 19.5 12"/>
+            </svg>
+          </div>
+          <p class="pipeline-label" data-en="Data" data-zh="数据" data-id="Data" data-fr="Données">Data</p>
+        </div>
+        <div class="pipeline-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="4" y1="6" x2="20" y2="6"/><circle cx="9" cy="6" r="2"/>
+              <line x1="4" y1="12" x2="20" y2="12"/><circle cx="15" cy="12" r="2"/>
+              <line x1="4" y1="18" x2="20" y2="18"/><circle cx="8" cy="18" r="2"/>
+            </svg>
+          </div>
+          <p class="pipeline-label" data-en="Feature Engineering" data-zh="特征工程" data-id="Rekayasa Fitur" data-fr="Ingénierie des caractéristiques">Feature Engineering</p>
+        </div>
+        <div class="pipeline-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+          </div>
+          <p class="pipeline-label" data-en="Evaluation" data-zh="评估" data-id="Evaluasi" data-fr="Évaluation">Evaluation</p>
+        </div>
+        <div class="pipeline-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="20" x2="5" y2="14"/>
+              <line x1="12" y1="20" x2="12" y2="9"/>
+              <line x1="19" y1="20" x2="19" y2="5"/>
+            </svg>
+          </div>
+          <p class="pipeline-label" data-en="Results" data-zh="结果" data-id="Hasil" data-fr="Résultats">Results</p>
+        </div>
+      </div>
+      <div class="pipeline-loop">
+        <svg class="pipeline-loop-svg" viewBox="0 0 1000 90" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <marker id="pipelineLoopArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path class="loop-arrowhead" d="M0,0 L8,4 L0,8 Z"/>
+            </marker>
+          </defs>
+          <path d="M 930 10 C 930 78, 260 78, 70 10" fill="none" stroke-width="2" stroke-dasharray="1 7" stroke-linecap="round" marker-end="url(#pipelineLoopArrow)"/>
+        </svg>
+        <p class="pipeline-loop-label" data-en="Generative AI closes data gaps and speeds iteration across the loop" data-zh="生成式 AI 弥补数据缺口，加速这一迭代循环" data-id="AI generatif menutup kesenjangan data dan mempercepat iterasi dalam siklus ini" data-fr="L'IA générative comble les lacunes de données et accélère cette boucle d'itération">Generative AI closes data gaps and speeds iteration across the loop</p>
+      </div>
+    </div>
+  </section>
 
   <!-- Problem framing -->
   <section class="section fade-in">
@@ -85,6 +165,47 @@
       <p style="line-height:1.8; color:var(--text-2); font-size:12px" data-en="A model that only does well on the data it was trained on hasn't proven anything. Every project held out data it never trained on and used it exactly once to report a final number, rather than tuning against it." data-zh="一个只在训练数据上表现良好的模型，并不能证明任何东西。每个项目都会预留一部分从未参与训练的数据，并且仅使用一次来报告最终结果，而非用它来调参。" data-id="Model yang hanya berkinerja baik pada data yang digunakan untuk melatihnya belum membuktikan apa-apa. Setiap proyek menyisihkan data yang tidak pernah digunakan untuk pelatihan, dan menggunakannya tepat satu kali untuk melaporkan angka akhir, bukan untuk melakukan tuning." data-fr="Un modèle qui ne performe bien que sur les données sur lesquelles il a été entraîné n'a rien prouvé. Chaque projet a mis de côté des données jamais utilisées pour l'entraînement et ne les a exploitées qu'une seule fois pour produire un résultat final, sans s'en servir pour ajuster le modèle.">A model that only does well on the data it was trained on hasn't proven anything. Every project held out data it never trained on and used it exactly once to report a final number, rather than tuning against it.</p>
       <p style="line-height:1.8; color:var(--text-2); font-size:12px" data-en="How much gets held out, and how many times, depends on the project. The Movie Recommendation Engine follows the split its Harvard capstone course requires: the 10M-rating dataset is divided 90/10 into a working set and a final validation set, and only the validation set, left untouched until the very last step, produces the reported RMSE of 0.80. Everything in between, moving from the baseline model to bias terms to regularization to matrix factorization, was checked against a separate portion of the working set, so each improvement could be trusted as real rather than a lucky fit to noise." data-zh="预留多少数据、预留几次，取决于具体项目。电影推荐系统遵循其哈佛毕业项目课程要求的划分方式：将 1000 万评分数据集按 90/10 划分为工作集与最终验证集，仅有验证集在最后一步之前始终保持未被使用，用于产出最终报告的 RMSE 0.80。而中间的每一步（从基线模型到偏置项，到正则化，再到矩阵分解）都在工作集的另一部分数据上进行检验，以确保每一次提升都是真实的，而非对噪声的偶然拟合。" data-id="Berapa banyak data yang disisihkan, dan berapa kali, bergantung pada masing-masing proyek. Movie Recommendation Engine mengikuti pembagian yang disyaratkan oleh mata kuliah capstone Harvard-nya: dataset 10 juta rating dibagi 90/10 menjadi working set dan validation set akhir, dan hanya validation set, yang tidak disentuh sampai langkah terakhir, yang menghasilkan RMSE akhir 0,80 yang dilaporkan. Semua tahap di antaranya (mulai dari model baseline, suku bias, regularisasi, hingga matrix factorization) diperiksa terhadap bagian lain dari working set, sehingga setiap peningkatan dapat dipercaya sebagai hasil nyata, bukan sekadar kecocokan kebetulan dengan noise." data-fr="La quantité de données mises de côté, et le nombre de fois, dépend du projet. Le moteur de recommandation de films suit la répartition exigée par son cours capstone de Harvard : le jeu de données de 10 millions d'évaluations est divisé 90/10 entre un ensemble de travail et un ensemble de validation final, et seul l'ensemble de validation, laissé intact jusqu'à la toute dernière étape, produit le RMSE final de 0,80 rapporté. Toutes les étapes intermédiaires (du modèle de référence aux termes de biais, à la régularisation, puis à la factorisation matricielle) ont été vérifiées sur une portion distincte de l'ensemble de travail, afin que chaque amélioration puisse être considérée comme réelle plutôt que comme un ajustement fortuit au bruit.">How much gets held out, and how many times, depends on the project. The Movie Recommendation Engine follows the split its Harvard capstone course requires: the 10M-rating dataset is divided 90/10 into a working set and a final validation set, and only the validation set, left untouched until the very last step, produces the reported RMSE of 0.80. Everything in between, moving from the baseline model to bias terms to regularization to matrix factorization, was checked against a separate portion of the working set, so each improvement could be trusted as real rather than a lucky fit to noise.</p>
       <p style="line-height:1.8; color:var(--text-2); font-size:12px" data-en="Red Wine Quality Classification evaluated its imbalanced dataset and a balanced version separately, since a model can post a high overall accuracy while quietly failing to catch the minority &quot;bad&quot; class it's actually meant to flag. Where the goal is a range rather than a single number, bootstrapping fills that role: resampling the data with replacement, refitting the estimate many times over, and reading the spread of results as a confidence interval instead of one lone figure. That's how Smart City Policy Impact Modeling arrives at its 95% confidence interval around the estimated effect, alongside placebo tests that rerun the same method on municipalities that were never part of the network, as a check that the effect isn't just an artifact of the method itself." data-zh="红酒质量分类对非平衡数据集与平衡数据集分别进行评估，因为一个模型可能整体准确率很高，却在其真正需要识别的少数「劣质」类别上悄悄失效。当目标是一个区间而非单一数值时，自助法（bootstrapping）便能派上用场：对数据进行有放回抽样，多次重新拟合估计值，并将结果的离散程度解读为置信区间，而非单一数字。智慧城市政策影响评估正是借助这一方法，得出其估计效应的 95% 置信区间，并结合安慰剂检验（在从未加入该网络的城市上重新运行同一方法），以验证该效应并非方法本身产生的假象。" data-id="Red Wine Quality Classification mengevaluasi dataset yang tidak seimbang dan versi yang seimbang secara terpisah, karena sebuah model bisa mencatat akurasi keseluruhan yang tinggi namun diam-diam gagal menangkap kelas minoritas &quot;buruk&quot; yang sebenarnya ingin dideteksi. Ketika tujuannya adalah sebuah rentang, bukan angka tunggal, bootstrapping berperan di sini: melakukan resampling data dengan pengembalian, menyesuaikan ulang estimasi berkali-kali, lalu membaca sebaran hasilnya sebagai interval kepercayaan alih-alih satu angka tunggal. Begitulah cara Smart City Policy Impact Modeling memperoleh interval kepercayaan 95% di sekitar efek yang diestimasi, disertai uji plasebo yang menjalankan ulang metode yang sama pada kota-kota yang tidak pernah menjadi bagian dari jaringan tersebut, sebagai pemeriksaan bahwa efek tersebut bukan sekadar artefak dari metodenya sendiri." data-fr="La classification de la qualité du vin rouge a évalué séparément son jeu de données déséquilibré et une version équilibrée, car un modèle peut afficher une exactitude globale élevée tout en échouant discrètement à repérer la classe minoritaire « mauvaise » qu'il est censé détecter. Lorsque l'objectif est un intervalle plutôt qu'un chiffre unique, le bootstrap entre en jeu : rééchantillonner les données avec remise, réajuster l'estimation à de nombreuses reprises, puis lire la dispersion des résultats comme un intervalle de confiance plutôt que comme un chiffre isolé. C'est ainsi que la modélisation de l'impact des politiques de villes intelligentes obtient son intervalle de confiance à 95 % autour de l'effet estimé, complété par des tests placebo qui rejouent la même méthode sur des municipalités n'ayant jamais fait partie du réseau, afin de vérifier que l'effet n'est pas un simple artefact de la méthode elle-même.">Red Wine Quality Classification evaluated its imbalanced dataset and a balanced version separately, since a model can post a high overall accuracy while quietly failing to catch the minority "bad" class it's actually meant to flag. Where the goal is a range rather than a single number, bootstrapping fills that role: resampling the data with replacement, refitting the estimate many times over, and reading the spread of results as a confidence interval instead of one lone figure. That's how Smart City Policy Impact Modeling arrives at its 95% confidence interval around the estimated effect, alongside placebo tests that rerun the same method on municipalities that were never part of the network, as a check that the effect isn't just an artifact of the method itself.</p>
+    </div>
+    <div class="features" style="margin-top:24px">
+      <div class="feature-card">
+        <svg viewBox="0 0 300 70" width="100%" height="70" role="img" aria-hidden="true" style="display:block; margin-bottom:16px">
+          <rect x="0" y="18" width="269" height="30" rx="4" style="fill:var(--accent)"></rect>
+          <rect x="271" y="18" width="29" height="30" rx="4" style="fill:var(--accent-bg); stroke:var(--accent); stroke-width:1.5"></rect>
+          <text x="134" y="38" text-anchor="middle" style="fill:var(--bg); font-size:11px; font-weight:700">90%</text>
+          <text x="285" y="38" text-anchor="middle" style="fill:var(--accent); font-size:9px; font-weight:700">10%</text>
+        </svg>
+        <h3 class="feature-title" data-en="90/10 Split" data-zh="90/10 划分" data-id="Pembagian 90/10" data-fr="Répartition 90/10">90/10 Split</h3>
+        <p class="feature-desc" data-en="Movie Recommendation Engine: the 10M-rating dataset is divided into a 90% working set for training and tuning, and a 10% final validation set touched only once, at the very end." data-zh="电影推荐系统：将 1000 万评分数据集划分为 90% 的工作集（用于训练与调参）和 10% 的最终验证集，验证集仅在最后阶段使用一次。" data-id="Movie Recommendation Engine: dataset 10 juta rating dibagi menjadi 90% working set untuk pelatihan dan tuning, serta 10% validation set akhir yang hanya disentuh satu kali, di tahap paling akhir." data-fr="Moteur de recommandation de films : le jeu de données de 10 millions d'évaluations est divisé en un ensemble de travail de 90 % pour l'entraînement et le réglage, et un ensemble de validation final de 10 % utilisé une seule fois, à la toute fin.">Movie Recommendation Engine: the 10M-rating dataset is divided into a 90% working set for training and tuning, and a 10% final validation set touched only once, at the very end.</p>
+      </div>
+      <div class="feature-card">
+        <svg viewBox="0 0 300 90" width="100%" height="90" role="img" aria-hidden="true" style="display:block; margin-bottom:16px">
+          <rect x="0" y="8" width="248" height="20" rx="4" style="fill:var(--border-2)"></rect>
+          <rect x="250" y="8" width="50" height="20" rx="4" style="fill:var(--accent)"></rect>
+          <text x="0" y="46" style="fill:var(--text-3); font-size:9px">Imbalanced</text>
+          <rect x="0" y="58" width="145" height="20" rx="4" style="fill:var(--border-2)"></rect>
+          <rect x="147" y="58" width="153" height="20" rx="4" style="fill:var(--accent)"></rect>
+          <text x="0" y="86" style="fill:var(--text-3); font-size:9px">Balanced</text>
+        </svg>
+        <h3 class="feature-title" data-en="Imbalanced vs. Balanced" data-zh="不平衡 vs. 平衡" data-id="Tidak Seimbang vs. Seimbang" data-fr="Déséquilibré vs équilibré">Imbalanced vs. Balanced</h3>
+        <p class="feature-desc" data-en="Red Wine Quality Classification: the model is scored on the original, imbalanced class split and again on a resampled, balanced version, so a high overall accuracy can't hide a missed minority class." data-zh="红酒质量分类：模型分别在原始的不平衡类别数据，以及重采样后的平衡数据上进行评分，避免高整体准确率掩盖对少数类别的漏判。" data-id="Red Wine Quality Classification: model dinilai pada pembagian kelas asli yang tidak seimbang, dan sekali lagi pada versi yang di-resample menjadi seimbang, sehingga akurasi keseluruhan yang tinggi tidak dapat menyembunyikan kelas minoritas yang terlewat." data-fr="Classification de la qualité du vin rouge : le modèle est évalué sur la répartition de classes déséquilibrée d'origine, puis à nouveau sur une version rééchantillonnée et équilibrée, afin qu'une exactitude globale élevée ne puisse pas masquer une classe minoritaire manquée.">Red Wine Quality Classification: the model is scored on the original, imbalanced class split and again on a resampled, balanced version, so a high overall accuracy can't hide a missed minority class.</p>
+      </div>
+      <div class="feature-card">
+        <svg viewBox="0 0 300 90" width="100%" height="90" role="img" aria-hidden="true" style="display:block; margin-bottom:16px">
+          <rect x="0" y="30" width="28" height="28" rx="4" style="fill:var(--accent)"></rect>
+          <line x1="32" y1="44" x2="50" y2="44" style="stroke:var(--border-2); stroke-width:1.5"></line>
+          <polygon points="50,40 58,44 50,48" style="fill:var(--border-2)"></polygon>
+          <rect x="62" y="18" width="16" height="16" rx="3" style="fill:var(--accent-bg); stroke:var(--accent); stroke-width:1"></rect>
+          <rect x="62" y="38" width="16" height="16" rx="3" style="fill:var(--accent-bg); stroke:var(--accent); stroke-width:1"></rect>
+          <rect x="62" y="58" width="16" height="16" rx="3" style="fill:var(--accent-bg); stroke:var(--accent); stroke-width:1"></rect>
+          <line x1="84" y1="44" x2="102" y2="44" style="stroke:var(--border-2); stroke-width:1.5"></line>
+          <polygon points="102,40 110,44 102,48" style="fill:var(--border-2)"></polygon>
+          <rect x="150" y="10" width="40" height="62" style="fill:var(--accent); opacity:.14"></rect>
+          <path d="M114,72 C134,72 140,12 168,12 C196,12 202,72 222,72" style="fill:none; stroke:var(--accent); stroke-width:1.75"></path>
+          <line x1="170" y1="12" x2="170" y2="72" style="stroke:var(--accent); stroke-width:1.25; stroke-dasharray:3,3"></line>
+        </svg>
+        <h3 class="feature-title" data-en="Bootstrap → Confidence Interval" data-zh="自助法 → 置信区间" data-id="Bootstrap → Interval Kepercayaan" data-fr="Bootstrap → intervalle de confiance">Bootstrap → Confidence Interval</h3>
+        <p class="feature-desc" data-en="Smart City Policy Impact Modeling: the sample is resampled with replacement many times over, and the spread of the resulting estimates becomes the reported 95% confidence interval around the effect." data-zh="智慧城市政策影响评估：对样本进行多次有放回重采样，所得估计值的离散程度即构成所报告的效应 95% 置信区间。" data-id="Smart City Policy Impact Modeling: sampel di-resample dengan pengembalian berkali-kali, dan sebaran estimasi yang dihasilkan menjadi interval kepercayaan 95% yang dilaporkan di sekitar efek tersebut." data-fr="Modélisation de l'impact des politiques de villes intelligentes : l'échantillon est rééchantillonné avec remise à de nombreuses reprises, et la dispersion des estimations obtenues constitue l'intervalle de confiance à 95 % rapporté autour de l'effet.">Smart City Policy Impact Modeling: the sample is resampled with replacement many times over, and the spread of the resulting estimates becomes the reported 95% confidence interval around the effect.</p>
+      </div>
     </div>
   </section>
 
